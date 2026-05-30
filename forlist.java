@@ -7,6 +7,7 @@ public class forlist
         animals.add("Lion");
         animals.add("Fox");
         animals.add("Tiger");
+        System.out.println("Wild animals : " +animals);
         for(String animal : animals)
         {
             System.out.println("Wild animal in the Forest : "+animal);
